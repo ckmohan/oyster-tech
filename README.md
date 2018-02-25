@@ -1,7 +1,8 @@
 
 Pre-Request: 
     JDK Installed > 1.8
-    CURL tool or HTTP RestClient (Postman)
+    CURL tool or RestClient (Postman)
+
 
 Step 1: 
     To run just execute:
@@ -62,7 +63,7 @@ Unit Test Report
 
     Results :
         Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
-- Need to change from Int to BigDecimal or Double
+
 - Persist oyster tap time so if the tap happens within a short time, ignore one of them (prevent double tapping)
 - Station id is a string, ideally it should be a proper ID (oversimplified)
 - Station repository is an enum, it should be a proper Entity with its respective repository and DB table (again, oversimplification for this exercise)
